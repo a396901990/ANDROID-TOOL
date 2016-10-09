@@ -1,0 +1,12 @@
+﻿	-login <username> <password>		首次使用必须先登录
+	-importsign <keystore_path> <keystore_password> <alias> <alias_password>	
+						导入签名信息
+	-importmulpkg <mulpkg_filepath>		导入多渠道配置信息，txt格式
+	-showsign				查看已配置的签名信息
+	-showmulpkg				查看已配置的多渠道信息
+	-help					显示帮助信息
+	-jiagu <inputAPKpath> <outputPath> 	加固应用,可选参数
+			[-autosign] 			自动签名
+			[-automulpkg] 			自动多渠道
+			[-pkgparam mulpkg_filepath]	使用mulpkg_filepath配置文件的渠道信息				
+	
